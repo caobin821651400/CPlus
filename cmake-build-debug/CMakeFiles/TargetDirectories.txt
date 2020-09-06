@@ -1,0 +1,9 @@
+E:/CPlae/NativeTest/cmake-build-debug/CMakeFiles/APP_SRC_CPLUS.dir
+E:/CPlae/NativeTest/cmake-build-debug/CMakeFiles/android_dongtai.dir
+E:/CPlae/NativeTest/cmake-build-debug/CMakeFiles/field.dir
+E:/CPlae/NativeTest/cmake-build-debug/CMakeFiles/stringLib.dir
+E:/CPlae/NativeTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/CPlae/NativeTest/cmake-build-debug/CMakeFiles/method.dir
+E:/CPlae/NativeTest/cmake-build-debug/CMakeFiles/APP_SRC_JNI.dir
+E:/CPlae/NativeTest/cmake-build-debug/CMakeFiles/APP_SRC_OBJET.dir
+E:/CPlae/NativeTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir

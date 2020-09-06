@@ -1,0 +1,3 @@
+"E:\aaaaaa\CLion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\NativeTest.dir/objects.a
+E:\aaaaaa\mingw64\bin\ar.exe cr CMakeFiles\NativeTest.dir/objects.a @CMakeFiles\NativeTest.dir\objects1.rsp
+E:\aaaaaa\mingw64\bin\g++.exe  -g  -shared -o libNativeTest.dll -Wl,--out-implib,libNativeTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\NativeTest.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\NativeTest.dir\linklibs.rsp

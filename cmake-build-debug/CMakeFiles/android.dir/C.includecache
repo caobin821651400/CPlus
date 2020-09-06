@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CPlae/NativeTest/com_example_cb_test_NativeClass.c
+stdio.h
+-
+stdlib.h
+-
+com_example_cb_test_NativeClass.h
+E:/CPlae/NativeTest/com_example_cb_test_NativeClass.h
+
+E:/CPlae/NativeTest/com_example_cb_test_NativeClass.h
+jni.h
+E:/CPlae/NativeTest/jni.h
+
+E:/CPlae/NativeTest/jni.h
+stdio.h
+-
+stdarg.h
+-
+jni_md.h
+E:/CPlae/NativeTest/jni_md.h
+
+E:/CPlae/NativeTest/jni_md.h
+

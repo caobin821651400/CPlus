@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CPlae/NativeTest/jni.h
+stdio.h
+-
+stdarg.h
+-
+jni_md.h
+E:/CPlae/NativeTest/jni_md.h
+
+E:/CPlae/NativeTest/jni/android_dongtai.c
+stdio.h
+-
+stdlib.h
+-
+../jni.h
+E:/CPlae/NativeTest/jni.h
+
+E:/CPlae/NativeTest/jni_md.h
+

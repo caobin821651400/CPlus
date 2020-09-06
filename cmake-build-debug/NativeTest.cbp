@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="NativeTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="APP_SRC_CPLUS">
+				<Option output="E:/CPlae/NativeTest/cmake-build-debug/APP_SRC_CPLUS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 APP_SRC_CPLUS"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="APP_SRC_CPLUS/fast">
+				<Option output="E:/CPlae/NativeTest/cmake-build-debug/APP_SRC_CPLUS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 APP_SRC_CPLUS/fast"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="android_dongtai">
+				<Option output="E:/CPlae/NativeTest/cmake-build-debug/libandroid_dongtai.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 android_dongtai"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="android_dongtai/fast">
+				<Option output="E:/CPlae/NativeTest/cmake-build-debug/libandroid_dongtai.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 android_dongtai/fast"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="field">
+				<Option output="E:/CPlae/NativeTest/cmake-build-debug/libfield.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 field"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="field/fast">
+				<Option output="E:/CPlae/NativeTest/cmake-build-debug/libfield.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 field/fast"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stringLib">
+				<Option output="E:/CPlae/NativeTest/cmake-build-debug/libstringLib.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 stringLib"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stringLib/fast">
+				<Option output="E:/CPlae/NativeTest/cmake-build-debug/libstringLib.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 stringLib/fast"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="method">
+				<Option output="E:/CPlae/NativeTest/cmake-build-debug/libmethod.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 method"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="method/fast">
+				<Option output="E:/CPlae/NativeTest/cmake-build-debug/libmethod.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 method/fast"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="APP_SRC_JNI">
+				<Option output="E:/CPlae/NativeTest/cmake-build-debug/APP_SRC_JNI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 APP_SRC_JNI"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="APP_SRC_JNI/fast">
+				<Option output="E:/CPlae/NativeTest/cmake-build-debug/APP_SRC_JNI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 APP_SRC_JNI/fast"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="APP_SRC_OBJET">
+				<Option output="E:/CPlae/NativeTest/cmake-build-debug/APP_SRC_OBJET.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 APP_SRC_OBJET"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="APP_SRC_OBJET/fast">
+				<Option output="E:/CPlae/NativeTest/cmake-build-debug/APP_SRC_OBJET.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/aaaaaa/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 APP_SRC_OBJET/fast"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/CPlae/NativeTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/aaaaaa/mingw64/bin/mingw32-make.exe -f &quot;E:/CPlae/NativeTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/CPlae/NativeTest/cplus/demo01.cpp">
+			<Option target="APP_SRC_CPLUS"/>
+		</Unit>
+		<Unit filename="E:/CPlae/NativeTest/cplus/fun.cpp">
+			<Option target="APP_SRC_CPLUS"/>
+		</Unit>
+		<Unit filename="E:/CPlae/NativeTest/cplus/fun2.cpp">
+			<Option target="APP_SRC_CPLUS"/>
+		</Unit>
+		<Unit filename="E:/CPlae/NativeTest/cplus/fun3.cpp">
+			<Option target="APP_SRC_CPLUS"/>
+		</Unit>
+		<Unit filename="E:/CPlae/NativeTest/cplus/yinyong.cpp">
+			<Option target="APP_SRC_CPLUS"/>
+		</Unit>
+		<Unit filename="E:/CPlae/NativeTest/cplus/yinyong2.cpp">
+			<Option target="APP_SRC_CPLUS"/>
+		</Unit>
+		<Unit filename="E:/CPlae/NativeTest/jni/FieldTest.c">
+			<Option target="field"/>
+			<Option target="APP_SRC_JNI"/>
+		</Unit>
+		<Unit filename="E:/CPlae/NativeTest/jni/StringTest.c">
+			<Option target="stringLib"/>
+			<Option target="APP_SRC_JNI"/>
+		</Unit>
+		<Unit filename="E:/CPlae/NativeTest/jni/android_dongtai.c">
+			<Option target="android_dongtai"/>
+			<Option target="APP_SRC_JNI"/>
+		</Unit>
+		<Unit filename="E:/CPlae/NativeTest/jni/methodTest.c">
+			<Option target="method"/>
+			<Option target="APP_SRC_JNI"/>
+		</Unit>
+		<Unit filename="E:/CPlae/NativeTest/mobject/Teacher.cpp">
+			<Option target="APP_SRC_OBJET"/>
+		</Unit>
+		<Unit filename="E:/CPlae/NativeTest/mobject/Teacher.h">
+			<Option target="APP_SRC_OBJET"/>
+		</Unit>
+		<Unit filename="E:/CPlae/NativeTest/mobject/TestMain.cpp">
+			<Option target="APP_SRC_OBJET"/>
+		</Unit>
+		<Unit filename="E:/CPlae/NativeTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

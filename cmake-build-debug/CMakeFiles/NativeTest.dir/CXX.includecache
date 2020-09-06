@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CPlae/NativeTest/library.cpp
+library.h
+E:/CPlae/NativeTest/library.h
+iostream
+-
+
+E:/CPlae/NativeTest/library.h
+

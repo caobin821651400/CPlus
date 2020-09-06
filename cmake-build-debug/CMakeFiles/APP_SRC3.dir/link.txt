@@ -1,0 +1,3 @@
+"E:\aaaaaa\CLion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\APP_SRC3.dir/objects.a
+E:\aaaaaa\mingw64\bin\ar.exe cr CMakeFiles\APP_SRC3.dir/objects.a @CMakeFiles\APP_SRC3.dir\objects1.rsp
+E:\aaaaaa\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\APP_SRC3.dir/objects.a -Wl,--no-whole-archive  -o APP_SRC3.exe -Wl,--out-implib,libAPP_SRC3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\APP_SRC3.dir\linklibs.rsp
